@@ -1,0 +1,12 @@
+{
+  "type": "postgres",
+  "host": "localhost",
+  "port": 5432,
+  "username": "postgres",
+  "password": "mycrud",
+  "database": "nodecrud",
+  "synchronize": true,
+  "logging": false,
+  "migrations": ["src/database/migrations/**/*.ts"],
+  "entities": ["src/entities/**/*.ts"]
+}
